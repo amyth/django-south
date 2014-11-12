@@ -1,3 +1,12 @@
+This repo is a fork of [django-south](https://github.com/dmishe/django-south) and resolves the infamous `UNIQUE constraint` bug. You can read about the bug in details [here](http://south.aeracode.org/ticket/747).
+
+####Installation
+<br>
+```
+pip install git+https://github.com/amyth/django-south
+```
+<br>
+
 This is South, a Django application to provide migrations in a sane way.
 
 By sane, we mean that the status of every migration is tracked individually,
